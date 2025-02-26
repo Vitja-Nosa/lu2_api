@@ -1,15 +1,19 @@
+using Microsoft.AspNetCore.Identity;
+
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddAuthorization();
-//builder.Services
-//    .AddIdentityApiEndpoints<IdentiyUser>()
-//    .AddDapperStores(options =>
-//    {
-//        options.ConnectionString = dbConnectionString;
-//    });
 
 var sqlConnectionString = builder.Configuration.GetValue<string>("SqlConnectionString");
 var sqlConnectionStringFound = !string.IsNullOrWhiteSpace(sqlConnectionString);
+
+builder.Services.AddAuthorization();
+builder.Services
+    .AddIdentityApiEndpoints<IdentityUser>()
+    .AddDapperStores(options =>
+    {
+        options.ConnectionString = sqlConnectionString;
+    });
+
 
 // Add services to the container.
 
@@ -19,9 +23,27 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+app.UseAuthorization();
+
+app.MapGroup("/auth")
+    .MapIdentityApi<IdentityUser>();
+
+//app.MapPost("/auth/logout",
+//    async (SignInManager<IdentityUser> signInManager,
+//    [FromBody] object empty) =>
+//    {
+//        if (empty != null)
+//        {
+//            await signInManager.SignOutAsync();
+//            return Results.Ok();
+
+//        }
+//        return Results.Unauthorized();
+//    });
+
 app.MapGet("/", () => $"The API is up. Connection string found: {(sqlConnectionStringFound ? "" : "")}");
 
-app.UseAuthorization();
+
 
 //app.MapGroup("/account")
 //    .MapIdentityApi<IdentityUser>();
@@ -36,6 +58,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers()
+    .RequireAuthorization();
 
 app.Run();
