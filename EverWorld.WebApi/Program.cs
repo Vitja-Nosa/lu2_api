@@ -6,6 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 var sqlConnectionString = builder.Configuration.GetValue<string>("SqlConnectionString");
 var sqlConnectionStringFound = !string.IsNullOrWhiteSpace(sqlConnectionString);
 
+builder.Services.AddScoped<DbConnectionService>(provider =>
+{
+    return new DbConnectionService(sqlConnectionString);
+});
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<EnvironmentService>();
+
 builder.Services.AddAuthorization();
 builder.Services
     .AddIdentityApiEndpoints<IdentityUser>()
@@ -42,7 +49,6 @@ app.MapGroup("/auth")
 //    });
 
 app.MapGet("/", () => $"The API is up. Connection string found: {(sqlConnectionStringFound ? "" : "")}");
-
 
 
 //app.MapGroup("/account")
