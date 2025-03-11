@@ -40,7 +40,7 @@ public class EnvironmentController : ControllerBase
         if (user != null)
         {
             IEnumerable<Environment> ?environments = await _environmentService.GetUserEnvironments(user.Id);
-            return Ok(new { message = "Environments retrieved successfully", environments });
+            return Ok(environments);
         }
         else
         {
