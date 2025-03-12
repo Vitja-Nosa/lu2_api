@@ -50,14 +50,14 @@ public class EnvironmentController : ControllerBase
         }
     }
 
-    [HttpPost("delete")]
-    public async Task<IActionResult> DeleteEnvironment([FromBody] Environment env)
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteEnvironment(int id)
     {
         User user = await _userService.GetLoggedUserAsync();
 
         if (user != null)
         {
-            await _environmentService.DeleteEnvironment(env.Id);
+            await _environmentService.DeleteEnvironment(id);
             return Ok(new { message = "environment is deleted"});
         }
         else
