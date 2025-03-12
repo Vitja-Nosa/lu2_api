@@ -6,8 +6,7 @@ using Microsoft.Data.SqlClient;
 using System.Data;
 using Microsoft.Extensions.Configuration.UserSecrets;
 
-public class UserService
-{
+public class UserService {
     private readonly IDbConnection dbConnection;
     private readonly IAuthenticationService _authenticationService;
 

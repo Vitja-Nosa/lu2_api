@@ -8,11 +8,13 @@ public class EnvironmentController : ControllerBase
 {
     private readonly UserService _userService;
     private readonly EnvironmentService _environmentService;
+    private readonly ObjectService _objectService;
 
-    public EnvironmentController(UserService userService, EnvironmentService environmentService)
+    public EnvironmentController(UserService userService, EnvironmentService environmentService, ObjectService objectService)
     {
         _userService = userService;
         _environmentService = environmentService;
+        _objectService = objectService;
     }
 
     [HttpPost("create")]
@@ -66,4 +68,17 @@ public class EnvironmentController : ControllerBase
         }
     }
 
+    [HttpGet("{id}/objects")]
+    public async Task<IActionResult> GetObjects(int id)
+    {
+        IEnumerable<Object2d> objs = await _objectService.GetObjects(id);
+        return Ok(objs);
+    }
+
+    [HttpPost("{id}/objects")]
+    public async Task<IActionResult> CreateObject(Object2d obj)
+    {
+        await _objectService.CreateObject(obj);
+        return Ok(obj);
+    }
 }

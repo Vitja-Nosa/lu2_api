@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 var sqlConnectionString = builder.Configuration.GetValue<string>("SqlConnectionString");
 var sqlConnectionStringFound = !string.IsNullOrWhiteSpace(sqlConnectionString);
 
@@ -13,6 +12,7 @@ builder.Services.AddScoped<DbConnectionService>(provider =>
 });
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<EnvironmentService>();
+builder.Services.AddScoped<ObjectService>();
 
 builder.Services.AddAuthorization();
 builder.Services
