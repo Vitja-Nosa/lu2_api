@@ -4,23 +4,27 @@ using Dapper;
 using EverWorld.WebApi.Models;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using Microsoft.Extensions.Configuration.UserSecrets;
 
 public class UserService
 {
     private readonly IDbConnection dbConnection;
+    private readonly IAuthenticationService _authenticationService;
 
-    public UserService(DbConnectionService dbConnectionService)
+    public UserService(DbConnectionService dbConnectionService, IAuthenticationService authenticationService)
     {
         dbConnection = dbConnectionService.Connection;
+        _authenticationService = authenticationService;
     }
 
-    public async Task<User?> GetLoggedUserAsync(string token)
+    public async Task<User?> GetLoggedUserAsync()
     {
+        string userId = _authenticationService.GetCurrentAuthenticatedUserId();
         using (var connection = dbConnection)
         {
             var user = await connection.QueryFirstOrDefaultAsync<User>(
-                "SELECT * FROM Auth.AspNetUsers WHERE Id = @Token",
-                new { Token = "df54207f-6da8-4bb2-92cb-eedd80aa5a16" });
+                "SELECT * FROM Auth.AspNetUsers WHERE Id = @uid",
+                new { uid = userId});
             return user;
         }
     }

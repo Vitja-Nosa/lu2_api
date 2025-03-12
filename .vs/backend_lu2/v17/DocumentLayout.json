@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\git\\lu2_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\dbconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\dbconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -48,10 +48,24 @@
               "RelativeDocumentMoniker": "EverWorld.WebApi\\Program.cs",
               "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Program.cs",
               "RelativeToolTip": "EverWorld.WebApi\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T12:15:20.061Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:10:48.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,14 +75,14 @@
               "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\EnvironmentService.cs",
               "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\EnvironmentService.cs",
               "RelativeToolTip": "EverWorld.WebApi\\Services\\EnvironmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T16:28:21.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "EverWorld.WebApi\\Models\\User.cs",
@@ -76,7 +90,8 @@
               "RelativeToolTip": "EverWorld.WebApi\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:39:58.458Z"
+              "WhenOpened": "2025-03-10T12:39:58.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,20 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EnvironmentController.cs",
               "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Controllers\\EnvironmentController.cs",
               "RelativeDocumentMoniker": "EverWorld.WebApi\\Controllers\\EnvironmentController.cs",
               "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Controllers\\EnvironmentController.cs",
               "RelativeToolTip": "EverWorld.WebApi\\Controllers\\EnvironmentController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T12:17:48.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Environment.cs",
               "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\Environment.cs",
               "RelativeDocumentMoniker": "EverWorld.WebApi\\Models\\Environment.cs",
@@ -116,18 +131,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T12:34:26.77Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EverWorld.WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EverWorld.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-10T12:15:15.78Z"
             }
           ]
         }
