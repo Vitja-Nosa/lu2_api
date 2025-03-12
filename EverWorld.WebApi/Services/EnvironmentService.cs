@@ -4,6 +4,7 @@ using Dapper;
 using EverWorld.WebApi.Models;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using System.Diagnostics;
 
 public class EnvironmentService
 {
@@ -28,6 +29,7 @@ public class EnvironmentService
                    maxHeight = environment.MaxHeight,
 
                });
+            Debug.WriteLine(result);
              return environment;
         }
     }
@@ -40,6 +42,16 @@ public class EnvironmentService
                 "SELECT * FROM dbo.Environments WHERE UserId = @param",
                 new { param = userId });
              return environments;
+        }
+    }
+
+    public async Task DeleteEnvironment(int id)
+    {
+        using (var connection = dbConnection)
+        {
+             IEnumerable<Environment>? environments = await connection.QueryAsync<Environment>(
+                "DELETE FROM dbo.Environments WHERE id = @param",
+                 new { param = id });
         }
     }
 

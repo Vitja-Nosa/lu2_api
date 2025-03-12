@@ -48,6 +48,22 @@ public class EnvironmentController : ControllerBase
         {
             return NotFound();
         }
-
     }
+
+    [HttpPost("delete")]
+    public async Task<IActionResult> DeleteEnvironment([FromBody] Environment env)
+    {
+        User user = await _userService.GetLoggedUserAsync();
+
+        if (user != null)
+        {
+            await _environmentService.DeleteEnvironment(env.Id);
+            return Ok(new { message = "environment is deleted"});
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
+
 }
