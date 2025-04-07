@@ -12,8 +12,6 @@ public class Environment
     [Required]
     [Range(20, 200)]
     public int MaxLength { get; set; }
-
-    [Required]
-    public string UserId { get; set; }
+    public string ?UserId { get; set; }
 
 }

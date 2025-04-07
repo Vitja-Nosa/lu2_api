@@ -27,7 +27,7 @@ public class EnvironmentController : ControllerBase
             env.UserId = user.Id;
 
             await _environmentService.CreateEnvironment(env);
-            return Ok(new { message = $"Environment set to " });
+            return Ok(new { message = $"Environment created" });
         } else
         {
             return NotFound();
