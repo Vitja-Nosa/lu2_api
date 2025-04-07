@@ -7,7 +7,7 @@ namespace EverWorld.WebApi.Controllers;
 public class UserController : ControllerBase
 {
 
-    [HttpPost(Name = "CreateUser")]
+    [HttpPost]
     public ActionResult Create([FromBody] dynamic data)
     {
         Console.WriteLine($"{data}");

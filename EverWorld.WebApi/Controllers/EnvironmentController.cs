@@ -17,11 +17,10 @@ public class EnvironmentController : ControllerBase
         _objectService = objectService;
     }
 
-    [HttpPost("create")]
+    [HttpPost("")]
     public async Task<IActionResult> CreateEnvironment([FromBody] Environment env)
     {
         User user = await _userService.GetLoggedUserAsync();
-
 
         if (user != null) 
         {
@@ -68,6 +67,7 @@ public class EnvironmentController : ControllerBase
         }
     }
 
+    //objects
     [HttpGet("{id}/objects")]
     public async Task<IActionResult> GetObjects(int id)
     {
@@ -81,4 +81,5 @@ public class EnvironmentController : ControllerBase
         await _objectService.CreateObject(obj);
         return Ok(obj);
     }
+
 }
