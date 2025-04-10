@@ -16,7 +16,7 @@ public class ObjectService
         using (var connection = dbConnection)
         {
             IEnumerable<Object2d>? object2ds = await connection.QueryAsync<Object2d>(
-               "SELECT * FROM Objects WHERE EnvironmentId = @param",
+               "SELECT * FROM Object2ds WHERE EnvironmentId = @param",
                 new { param = id });
             return object2ds;
         }
@@ -28,7 +28,7 @@ public class ObjectService
         using (var connection = dbConnection)
         {
             var result = await connection.ExecuteAsync(
-               "INSERT INTO dbo.Objects (PositionX, PositionY, EnvironmentId, PrefabId) VALUES (@PositionX, @PositionY, @PrefabId, @EnvironmentId)",
+               "INSERT INTO dbo.Object2ds (PositionX, PositionY, EnvironmentId, PrefabId) VALUES (@PositionX, @PositionY, @PrefabId, @EnvironmentId)",
                new
                {
                     PositionX = obj.PositionX,
