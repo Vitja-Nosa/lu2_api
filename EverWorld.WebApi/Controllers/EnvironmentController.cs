@@ -76,7 +76,7 @@ public class EnvironmentController : ControllerBase
     }
 
     [HttpPost("{id}/objects")]
-    public async Task<IActionResult> CreateObject(Object2d obj)
+    public async Task<IActionResult> CreateObject([FromBody] Object2d obj)
     {
         await _objectService.CreateObject(obj);
         return Ok(obj);

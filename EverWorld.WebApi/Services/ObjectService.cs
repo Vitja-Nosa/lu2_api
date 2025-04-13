@@ -28,7 +28,7 @@ public class ObjectService
         using (var connection = dbConnection)
         {
             var result = await connection.ExecuteAsync(
-               "INSERT INTO dbo.Object2ds (PositionX, PositionY, EnvironmentId, PrefabId) VALUES (@PositionX, @PositionY, @PrefabId, @EnvironmentId)",
+               "INSERT INTO dbo.Object2ds (PositionX, PositionY, EnvironmentId, PrefabId) VALUES (@PositionX, @PositionY, @EnvironmentId, @PrefabId)",
                new
                {
                     PositionX = obj.PositionX,
