@@ -1,12 +1,251 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\git\\lu2_api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C77708A2-F54F-4374-9D58-1577DD49E598}|EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj|c:\\git\\lu2_api\\everworld.webapi.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77708A2-F54F-4374-9D58-1577DD49E598}|EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj|solutionrelative:everworld.webapi.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77708A2-F54F-4374-9D58-1577DD49E598}|EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj|c:\\git\\lu2_api\\everworld.webapi.tests\\everworld.webapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C77708A2-F54F-4374-9D58-1577DD49E598}|EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj|solutionrelative:everworld.webapi.tests\\everworld.webapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\aspnetidentityauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\aspnetidentityauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\everworld.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\everworld.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\objectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\objectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\services\\dbconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\services\\dbconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|c:\\git\\lu2_api\\everworld.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA6866B-B3AF-23EE-8239-EF868A3C624A}|EverWorld.WebApi\\EverWorld.WebApi.csproj|solutionrelative:everworld.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:43:07.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Program.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Program.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:43:09.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi.Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi.Tests\\Test1.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi.Tests\\Test1.cs",
+              "RelativeToolTip": "EverWorld.WebApi.Tests\\Test1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:08:23.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EverWorld.WebApi.Tests.csproj",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj",
+              "RelativeDocumentMoniker": "EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj",
+              "RelativeToolTip": "EverWorld.WebApi.Tests\\EverWorld.WebApi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-13T17:41:33.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AspNetIdentityAuthenticationService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\AspNetIdentityAuthenticationService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\AspNetIdentityAuthenticationService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\AspNetIdentityAuthenticationService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\AspNetIdentityAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:41:16.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Environment.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\Environment.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Models\\Environment.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\Environment.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Models\\Environment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:41:10.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EverWorld.WebApi.csproj",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\EverWorld.WebApi.csproj",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\EverWorld.WebApi.csproj",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\EverWorld.WebApi.csproj",
+              "RelativeToolTip": "EverWorld.WebApi\\EverWorld.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-13T17:43:14.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Models\\User.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\User.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:42:59.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Object.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\Object.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Models\\Object.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Models\\Object.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Models\\Object.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:41:23.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObjectService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\ObjectService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\ObjectService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\ObjectService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\ObjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:43:06.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\IAuthenticationService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:43:05.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnvironmentService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\EnvironmentService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\EnvironmentService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\EnvironmentService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\EnvironmentService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:41:18.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbConnectionService.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\DbConnectionService.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\Services\\DbConnectionService.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\Services\\DbConnectionService.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\Services\\DbConnectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:41:17.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\git\\lu2_api\\EverWorld.WebApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EverWorld.WebApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\git\\lu2_api\\EverWorld.WebApi\\WeatherForecast.cs",
+              "RelativeToolTip": "EverWorld.WebApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:43:11.461Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
