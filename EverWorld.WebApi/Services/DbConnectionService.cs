@@ -8,7 +8,7 @@ using System.Data;
 public class DbConnectionService
 {
     private readonly string _connectionString;
-    public IDbConnection Connection => new SqlConnection(_connectionString);
+    public IDbConnection GetConnection() => new SqlConnection(_connectionString);
     public DbConnectionService (string connectionString)
     {
         _connectionString = connectionString;

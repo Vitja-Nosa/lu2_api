@@ -12,7 +12,7 @@ public class UserService {
 
     public UserService(DbConnectionService dbConnectionService, IAuthenticationService authenticationService)
     {
-        dbConnection = dbConnectionService.Connection;
+        dbConnection = dbConnectionService.GetConnection();
         _authenticationService = authenticationService;
     }
 

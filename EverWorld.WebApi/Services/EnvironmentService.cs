@@ -8,16 +8,16 @@ using System.Diagnostics;
 
 public class EnvironmentService
 {
-    private readonly IDbConnection dbConnection;
+    private readonly DbConnectionService dbConnection;
 
     public EnvironmentService(DbConnectionService dbConnectionService)
     {
-        dbConnection = dbConnectionService.Connection;
+        dbConnection = dbConnectionService;
     }
 
     public async Task<Environment> CreateEnvironment(Environment environment)
     {
-        using (var connection = dbConnection)
+        using (var connection = dbConnection.GetConnection())
         {
             var result = await connection.ExecuteAsync(
                "INSERT INTO Environments (UserId, Name, MaxLength, MaxHeight) VALUES (@userid, @name, @maxLength, @maxHeight)",
@@ -36,7 +36,7 @@ public class EnvironmentService
 
     public async Task<IEnumerable<Environment>?> GetUserEnvironments(string userId)
     {
-        using (var connection = dbConnection)
+        using (var connection = dbConnection.GetConnection())
         {
              IEnumerable<Environment>? environments = await connection.QueryAsync<Environment>(
                 "SELECT * FROM dbo.Environments WHERE UserId = @param",
@@ -47,12 +47,23 @@ public class EnvironmentService
 
     public async Task DeleteEnvironment(int id)
     {
-        using (var connection = dbConnection)
+        using (var connection = dbConnection.GetConnection())
         {
              IEnumerable<Environment>? environments = await connection.QueryAsync<Environment>(
                 "DELETE FROM dbo.Environments WHERE id = @param",
                  new { param = id });
         }
     }
+
+    public async Task DeleteEnvironmentObjects(int id)
+    {
+        using (var con = dbConnection.GetConnection())
+        {
+            IEnumerable<Environment>? environments = await con.QueryAsync<Environment>(
+               "DELETE FROM dbo.Object2ds WHERE EnvironmentId = @param",
+                new { param = id });
+        }
+    }
+
 
 }

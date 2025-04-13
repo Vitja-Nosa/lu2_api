@@ -8,7 +8,7 @@ public class ObjectService
 
     public ObjectService(DbConnectionService dbConnectionService)
     {
-        dbConnection = dbConnectionService.Connection;
+        dbConnection = dbConnectionService.GetConnection();
     }
 
     public async Task<IEnumerable<Object2d>> GetObjects(int id)

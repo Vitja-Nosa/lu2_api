@@ -25,11 +25,11 @@ public class EnvironmentController : ControllerBase
         if (user != null) 
         {
             env.UserId = user.Id;
-            //IEnumerable<Environment> ?environments = await _environmentService.GetUserEnvironments(user.Id);
-            //if (environments.Count() > 5)
-            //{
-            //    return BadRequest("too many environments");
-            //}
+            IEnumerable<Environment>? environments = await _environmentService.GetUserEnvironments(user.Id);
+            if (environments.Count() >= 5)
+            {
+                return BadRequest("too many environments");
+            }
             await _environmentService.CreateEnvironment(env);
             return Ok(new { message = $"Environment created" });
         } else
@@ -63,6 +63,7 @@ public class EnvironmentController : ControllerBase
         if (user != null)
         {
             await _environmentService.DeleteEnvironment(id);
+            //await _environmentService.DeleteEnvironmentObjects(id);
             return Ok(new { message = "environment is deleted"});
         }
         else
